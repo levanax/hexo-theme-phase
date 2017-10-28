@@ -1,5 +1,9 @@
 menu:
   Home: /
+  Archives: /archives
+rss: /atom.xml
+language: 
+- zh-CN
 
 addthis:
   enable: true
@@ -12,8 +16,7 @@ addthis:
 facebook:
 google_plus:
 twitter:
-github:
+github: levanax
 
 fancybox: true
 google_analytics:
-rss:
