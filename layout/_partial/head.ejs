@@ -15,6 +15,9 @@
   title.push(config.title);
   %>
   <title><%= title.join(' | ') %></title>
+  <meta name="google-site-verification" content="<%= config.google_site_verification %>" />
+  <meta name="baidu-site-verification" content="<%= config.baidu_site_verification %>" />
+  <meta name="360-site-verification" content="<%= config.so_360_site_verification %>" />
   <% if (config.author){ %><meta name="author" content="<%= config.author %>"><% } %>
 
   <% if (page.description){ %>
