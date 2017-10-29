@@ -4,6 +4,13 @@ menu:
 rss: /atom.xml
 language: 
 - zh-CN
+- zh-TW
+- default
+
+
+friendship_chaining_site:
+  塘主Levan: https://levanax.github.io/
+  szpua: http://www.szpua.com
 
 addthis:
   enable: true

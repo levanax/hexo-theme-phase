@@ -21,5 +21,11 @@
   <% } %>
   &nbsp;|&nbsp;
   <a target="_blank" style="color:#aebdc9;text-decoration:none;" href="http://www.miitbeian.gov.cn/"><%= config.icpCode %></a>
+  &nbsp;|&nbsp;
+  <%= __("friendship_chaining") %>
+  &nbsp;:&nbsp;
+  <% for (var i in theme.friendship_chaining_site){ %>
+      <a target="_blank" style="color:#aebdc9;" href="<%- theme.friendship_chaining_site[i] %>"><%= i %></a>&nbsp;&nbsp;
+  <% } %>
 </p>
 <div class="clearfix"></div>
